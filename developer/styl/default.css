@@ -23,6 +23,13 @@ html body article.example.example-grid-layout-area .page.wide {
 
 html body article.example.example-grid-layout-area .page.wide .aside{display: none;}
 
+html body article.example.example-grid-layout-area .page.wide-x {
+        
+        grid-template-areas: "header header header"
+                             "nav    main   main" 
+                             "footer footer footer";
+}
+
 
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
