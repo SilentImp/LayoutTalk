@@ -571,6 +571,10 @@ for num in (1..8)
 article.screen.screen--grid-support
   background-image url('../images/grid-support.png')
   background-size cover
+  
+article.screen.screen--grid-support-2
+  background-image url('../images/cool.png')
+  background-size contain
 
 article.screen.screen--columns-support
   background-image url('../images/columns-support.png')
@@ -1085,6 +1089,44 @@ article.example.example-grid-layout-area
         background orange
         line-height 36px
 
+
+article.example.example-grid-layout-area-x
+
+    .header
+        grid-area: header;
+
+        text-align center
+        color #fff
+        background red
+
+    .footer
+        grid-area: footer;
+
+        text-align center
+        color #fff
+        background red
+
+    .aside
+        grid-area: aside;
+
+        width 350px
+        background green
+        text-align center
+        color #fff
+
+    .nav
+        grid-area: nav;
+
+        width 250px
+        background blue
+        text-align center
+        color #fff
+
+    .main
+        grid-area: main;
+
+        background orange
+        line-height 36px
 
 
 
