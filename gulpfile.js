@@ -20,12 +20,12 @@ var gulp          = require('gulp')
                           , jade:       './developer/*.jade'
                         }
                       , 'build': {
-                          examples:   './build/examples'
-                          , css:      './build/css/'
-                          , images:   './build/images/'
-                          , js:       './build/js/'
-                          , fonts:    './build/fonts/'
-                          , html:     './build/'
+                          examples:   './docs/examples'
+                          , css:      './docs/css/'
+                          , images:   './docs/images/'
+                          , js:       './docs/js/'
+                          , fonts:    './docs/fonts/'
+                          , html:     './docs/'
                         }
                       };
 
@@ -86,7 +86,7 @@ gulp.task('deploy', function () {
   return gulp.src('build/**')
           .pipe(deploy({
             cacheDir:   'gh-cache',
-            remoteUrl:  'git@github.com:SilentImp/LayoutTalk.git'
+            remoteUrl:  'https://github.com/SilentImp/LayoutTalk.git'
           }).on('error', function(){
             console.log('error', arguments);
           }));

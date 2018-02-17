@@ -1016,9 +1016,38 @@ article.cloud.colspan h1:after {
   -webkit-transform-origin: 10px -198px;
           transform-origin: 10px -198px;
 }
+article.cloud.summer {
+  background-image: url("../images/summer.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+article.cloud.summer h1 {
+  width: 400px;
+  height: 400px;
+  right: 5%;
+  top: 5%;
+  line-height: 400px;
+}
+article.cloud.summer h1 b {
+  color: #f00;
+}
+article.cloud.summer h1 .wrapper {
+  font-size: 150px;
+  line-height: 400px;
+  text-transform: none;
+}
+article.cloud.summer h1:after {
+  -webkit-transform: rotate(-295deg);
+          transform: rotate(-295deg);
+  -webkit-transform-origin: 10px -198px;
+          transform-origin: 10px -198px;
+}
 .illustration--grail {
   background-image: url("../images/grail.png");
   background-position: 50% 20%;
+}
+.illustration--beard {
+  background-image: url("../images/beard.jpg");
 }
 .illustration--real-grail {
   background-image: url("../images/original.gif");
